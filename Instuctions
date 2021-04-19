@@ -1,0 +1,10 @@
+The code runs by making use of sql databases. So firstly these databases needs to be configured.
+Then CRUD Operations i.e Create, Read, Update, Delete can be implemented by the codes given in the readme file.
+
+# Running the code
+
+Navigate to the project directory and execute the command python main.py or main.py .
+If your Python is configured in the environment variable, your server will start on default port 5000. 
+If you want to change the port then you can change the line app.run() to app.run(port=50001), where 5001 is the new port.
+
+You can use Postman, REST Client etc. to test your REST or RESTful APIs
